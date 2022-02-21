@@ -8,6 +8,8 @@ class Strictdoc < Formula
   license "Apache-2.0"
 
   depends_on "python3"
+  depends_on "libxml2"
+  depends_on "libxslt"
 
   resource "Arpeggio" do
     url "https://files.pythonhosted.org/packages/8d/4b/042f027e6b818350f4863509884559f0fc744df8c5c36f4a084511b9457a/Arpeggio-1.10.2.tar.gz"
