@@ -8,8 +8,6 @@ brew tap fkromer/homebrew-strictdoc
 brew install strictdoc
 ```
 
-execute `brew install fkromer/homebrew-strictdoc`.
-
 ## Development
 
 To create a `brew` formula one cannot setup the `venv` using poetry cause
